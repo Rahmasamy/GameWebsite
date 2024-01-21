@@ -1,0 +1,41 @@
+.informationAboutClip {
+    display: flex;
+    align-items: center;
+    color: var(--light-pinky);
+    width: 100%;
+    gap: 30px;
+    padding: 10px 0 0 10px;
+}
+.informationAboutClip p {
+    font-weight: bold;
+    font-size: 15px;
+}
+.icon-view {
+    display: flex;
+    gap: 10px;
+}
+.img-icon-info {
+    position: relative;
+    width: 100%;
+}
+.img-icon-info img {
+    width: 100%;
+    max-width: 100%;
+    border-radius: var(--border-raduis);
+}
+.img-icon-info .icon a {
+    position: absolute;
+    top:50%;
+    left:50%;
+    color: var(--light-pinky);
+    transform: translate(-50%,-50%);
+    margin: 0;
+    background-color: aliceblue;
+    border-radius: 15px;
+    height: 20px;
+}
+.img-icon-info .icon svg {
+    width: 30px;
+    height: 30px;
+    overflow: hidden;
+}

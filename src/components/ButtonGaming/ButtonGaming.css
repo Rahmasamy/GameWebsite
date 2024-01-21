@@ -1,0 +1,9 @@
+.main-button a {
+    color: var(--nebety);
+
+}
+.main-button {
+    background-color: var(--page);
+    padding: calc(var(--padding-primary) / 4.5);
+    border-radius: var(--border-raduis);
+}

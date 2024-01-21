@@ -1,0 +1,18 @@
+.Button-Browse {
+    padding: calc(var(--padding-primary)/3);
+    border-radius: var(--border-raduis);
+    background-color: var(--nebety);
+    text-align: center;
+    border: 1px solid var(--page);
+    margin-top: 10px;
+}
+.Button-Browse a {
+    text-decoration: none;
+    color: var(--page);
+}
+.Button-Browse:hover a {
+    color: var(--nebety);
+}
+.Button-Browse:hover {
+    background-color: var(--page);
+}

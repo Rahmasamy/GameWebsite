@@ -1,0 +1,40 @@
+.testmonial-container {
+    width: calc(100% / 3);
+    
+ 
+}
+.testmonial-container .img-content {
+    border-radius: var(--border-raduis);
+    border:1px solid var(--nebety);
+    margin: 10px;
+    height: 93%;
+    max-width: 100%;
+    
+}
+@media (max-width:330px){
+    .testmonial-container .img-content {
+       height: 97%;
+       margin: 20px;
+    }
+}
+.img-content {
+    overflow: hidden;
+}
+
+.img-content img {
+    margin:  calc(var(--padding-primary)/2)  calc(var(--padding-primary)/4);
+    border-radius: 50%;
+}
+.content p {
+    color:darkgray;
+    font-size: 12px;
+    line-height: 1.4rem;
+    padding: 5px 15px;
+    
+    
+}
+.content h4 {
+    color: var(--nebety);
+    padding: 5px 15px;
+   
+}

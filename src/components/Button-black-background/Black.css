@@ -1,0 +1,19 @@
+
+.Button-Black {
+    padding: calc(var(--padding-primary)/3);
+    border-radius: var(--border-raduis);
+    background-color: var(--dark);
+    text-align: center;
+    border: 1px solid var(--nebety);
+    margin-top: 10px;
+}
+.Button-Black a {
+    text-decoration: none;
+    color: var(--nebety);
+}
+.Button-Black:hover a {
+    color: var(--nebety);
+}
+.Button-Black:hover {
+    background-color: var(--page);
+}

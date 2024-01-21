@@ -1,0 +1,24 @@
+.Top-downloads-items {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Top-downloads-items .top-download-item img{
+     border-radius: 12px;
+} 
+.Topdownlibrary-container {
+    margin-left: 10px;
+}
+.view-all-games {
+  
+   border-radius: var(--border-raduis);
+   background-color: var(--dark);
+   padding: calc(var(--padding-primary) / 4.5);
+   width: 100%;
+  
+   
+}
+.view-all-games a {
+    color:var(--light-pinky);
+    text-decoration: none;
+}

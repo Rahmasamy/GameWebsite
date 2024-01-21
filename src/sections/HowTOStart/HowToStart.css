@@ -1,0 +1,7 @@
+.How-to h2 {
+    text-align: center;
+    padding: calc(var(--padding-primary)/1);
+}
+.Main-Container-Testmonial {
+    display: flex;
+}

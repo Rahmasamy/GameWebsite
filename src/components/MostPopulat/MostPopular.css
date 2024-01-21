@@ -1,0 +1,28 @@
+.MostPopular {
+    background-color: #a9a9a952;
+    padding: calc(var(--padding-primary) / 2);
+    border-radius: var(--border-raduis);
+    
+}
+.Clips-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--dark);
+    padding-top: 20px;
+    border-radius: var(--border-raduis);
+}
+.center {
+    display: flex;
+    gap:15px;
+}
+@media (max-width:770px){
+    .center {
+        flex-direction: column;
+    }
+}
+@media (max-width:990px){
+    .center {
+        padding: 0 15px;
+    }
+}

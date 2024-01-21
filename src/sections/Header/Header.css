@@ -1,0 +1,15 @@
+.navbarHeader {
+    background-color: var(--page);
+    
+}
+.navbarHeader a,
+.nav-link,
+.navbarHeader button  {
+    color: var(--nebety);
+}
+.navbarHeader a:hover {
+    color: var(--pinky);
+}
+.tog-icon {
+    color: var(--nebety);
+}

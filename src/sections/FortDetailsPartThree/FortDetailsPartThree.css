@@ -1,0 +1,31 @@
+.others {
+    display: flex;
+}
+
+.left-others,.right-others {
+    background-color: var(--dark);
+    padding: calc(var(--padding-primary)/4)  calc(var(--padding-primary)/7);
+    width: 50%;
+    border-radius: 7px;
+}
+.container-imgs-fortnitedet {
+    display: flex;
+    padding: 5px;
+    justify-content: space-evenly;
+}
+@media (max-width:768px) {
+   .threeImgs{ 
+    display: none;
+   }
+}
+.fortnite-det {
+    display: flex;
+    justify-content: space-between;
+
+    width: 100%;
+}
+.container-imgs-fortnitedet img{
+    border-radius: var(--border-raduis);
+    width: 85%;
+    height: 60px;
+}

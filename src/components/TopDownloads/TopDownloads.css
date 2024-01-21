@@ -1,0 +1,14 @@
+
+.top-download-item {
+    width: 80%;
+}
+
+.top-download-card-wrapper {
+    padding: calc(var(--padding-primary)/3) 20px;
+    margin: 15px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+.most-popular-item-content {
+    margin-left: calc(var(--padding-primary)/3);
+}

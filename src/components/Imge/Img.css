@@ -1,0 +1,4 @@
+.threeImgs img {
+    border-radius: var(--border-raduis);
+    margin-top: calc(--margin-primary)/4;
+}

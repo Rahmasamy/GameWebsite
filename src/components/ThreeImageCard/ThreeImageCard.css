@@ -1,0 +1,8 @@
+.DetailsImg {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: calc(var(--padding-primary)/2);
+}

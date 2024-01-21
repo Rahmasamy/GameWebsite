@@ -1,0 +1,23 @@
+.most-popular-item {
+    flex: 1 25%;
+}
+@media (max-width:1200px) {
+    .most-popular-item {
+       
+    }
+}
+.most-popular-img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    border-radius: calc(var(--border-raduis)/2);
+    margin-bottom: calc(var(--padding-primary)/2);
+}
+.most-popular-item-content {
+    display: flex;
+    justify-content: space-between;
+}
+.most-popular-item-title {
+    font-size: 14px;
+    line-height: 1.65rem;
+}

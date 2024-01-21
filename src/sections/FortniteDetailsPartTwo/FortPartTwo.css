@@ -1,0 +1,9 @@
+.fort-two {
+    padding: var(--padding-primary);
+}
+
+.header-details {
+   display: flex;
+   gap: 15px;
+}
+

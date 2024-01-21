@@ -1,0 +1,28 @@
+.personInfoParent {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px,1fr));
+    width: 100%;
+    gap: 40px;
+}
+.Infoimg-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 7px;
+}
+.Infoimg-div img {
+    border-radius: var(--border-raduis);
+    width: 90%;
+}
+.cardInfo {
+    background-color: var(--nebety);
+    border-radius: var(--border-raduis);
+    padding: var(--padding-primary);
+    margin-left: 10px;
+}
+
+ @media (max-width:1100px) {
+    .cardInfo{
+        display: none;
+    }
+ }

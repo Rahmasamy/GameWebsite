@@ -1,0 +1,11 @@
+.stream-container {
+    background-color: var(--nebety);
+    border-radius: var(--border-raduis);
+    display: flex;
+}
+@media (max-width:1200px){
+   .stream-container {
+    flex-direction: column;
+    margin-right: 5px;
+   }
+} 

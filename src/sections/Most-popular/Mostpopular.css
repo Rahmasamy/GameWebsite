@@ -1,0 +1,26 @@
+.section-wrapper {
+    background-color: #a9a9a952;
+    border-radius: var(--border-raduis);
+    padding: calc(var(--padding-primary)/3);
+    margin-top:calc(var(--padding-primary)/4);
+}
+
+.card-wrapper {
+    background-color: #160f14;
+    border-radius: calc(var(--border-raduis)/2);
+    padding: calc(var(--padding-primary)/2);
+    width:100%;
+    height: 430px;
+   
+} 
+@media (max-width:330px) {
+    .card-wrapper {
+        height: 330px;
+    }
+}
+.most-popular-items {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}

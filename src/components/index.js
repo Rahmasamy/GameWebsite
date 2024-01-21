@@ -1,0 +1,25 @@
+
+export { default as ContainerPage } from './Container/Containepage';
+export { default as Navitem } from './Navitem/Navitem';
+export { default as NavDropDown} from './Navdropdown/NavDropDown';
+export { default as SectionHeader} from './sctionheader/SectionHeader';
+export { default as Card} from './Card/Card';
+export { default as SectionWrapper} from './SectionWrappper/SectionWrapper';
+export { default as GammingCard} from './GamingCard/GamingCard';
+export { default as ButtonGaming} from './ButtonGaming/ButtonGaming';
+export { default as LeftFeature} from './LeftFeature/LeftFeature';
+export { default as Carsual } from './Carsual/Carsual';
+export { default as TopDownloadsCard} from './TopDownloads/TopDownloads';
+export { default as TestMonialContainer} from './testmonialContainer/TestMonialContainer';
+export { default as ButtonBrowse} from './ButtonBrowse/ButtonBrose';
+export { default as LiveStreams} from './LiveStreams/LiveStreams';
+export { default as ButtonContainer} from './button-Container/ButtonContainer';
+export { default as Spancomponent} from './SpanComponant/spancomponent';
+export { default as FortniteDet} from './FortniteDet/FortniteDet';
+export { default as JustIcons} from './JustIcons/JustIcons';
+export { default as ThreeImageCard} from './ThreeImageCard/ThreeImageCard';
+export { default as ParagraphComponet} from './ParagraphComponet/ParagraphComponet';
+export { default as personal} from './personal/personal';
+export { default as Black} from './Button-black-background/black';
+export { default as MostPopular} from './MostPopulat/MostPopular';
+export { default as ImgInfoCard} from './ImgInfoCard/ImgInfoCard';

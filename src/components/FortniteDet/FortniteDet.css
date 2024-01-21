@@ -1,0 +1,24 @@
+.header-details .fortnite-det {
+    width: 45%;
+    background-color: var(--nebety);
+    border-radius: var(--border-raduis);
+    padding: calc(var(--padding-primary)/3.5) 17px;
+}
+.details-icons {
+    width: 45%;
+    background-color: var(--nebety);
+    border-radius: var(--border-raduis);
+    padding: calc(var(--padding-primary)/3.5) 17px;
+}
+@media (max-width:802px){
+    .details-icons {
+        display: none;
+    }
+    .header-details .fortnite-det {
+        width: 90%;
+    }
+}
+.fortnite-det {
+    display: flex;
+    justify-content: space-between;
+}

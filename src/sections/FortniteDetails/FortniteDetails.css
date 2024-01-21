@@ -1,0 +1,85 @@
+.img-video {
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    padding: calc(var(--padding-primary)/2);
+    gap: 17px;
+    
+}
+
+.img-container-fort {
+    width:25%;
+    
+}
+.vedio-container-fort {
+    width: 74%;
+    position: relative;
+    
+}
+.vedio-container-fort .icon a {
+    position: absolute;
+    top:50%;
+    left:50%;
+    color: var(--light-pinky);
+    transform: translate(-50%,-50%);
+    margin: 0;
+    background-color: aliceblue;
+    border-radius: 15px;
+    height: 47px;
+}
+.icon svg {
+    width: 80px;
+    height: 80px;
+    overflow: hidden;
+}
+.fortnite-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--nebety);
+    border-radius: var(--border-raduis);
+}
+.fortnite-title  h3 {
+    font-weight: var(--font-weight-bold);
+    line-height: 1.5rem;
+    padding: 15px;
+}
+.img-container-fort img {
+    max-width: 100%;
+    height: 70%;
+    border-radius: var(--border-raduis);
+}
+
+.vedio-container-fort img {
+    max-width: 100%;
+    height: 70%;
+    border-radius: var(--border-raduis);
+}
+.img-container-fort,.vedio-container-fort {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@media (max-width:990px){
+    .img-video {
+        flex-direction: column;
+        gap: 21px;
+        
+    }
+    .img-container-fort {
+        width:65%;
+        height: 450px;
+    }
+    .vedio-container-fort {
+        width: 65%;
+        height: 450px;
+    }
+    .img-container-fort img {
+        height: 100%;
+    }
+    
+    .vedio-container-fort img {
+        height: 100%;
+        
+    }
+}

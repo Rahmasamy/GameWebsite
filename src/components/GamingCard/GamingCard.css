@@ -1,0 +1,52 @@
+.main-gaming-card {
+    flex: 1 1 100%;
+    background-color: var(--dark);
+    padding: calc(var(--padding-primary)/4);
+    border-radius:calc(var(--border-raduis)/3);
+    max-width: 100%;
+}
+@media (max-width: 815px){
+    .list {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 15px;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .list li img {
+        border-radius: 50%;
+    }
+    .main-gaming-card h4 {
+        font-size: 0.7rem;
+        color: darkgray;
+    }
+    
+
+}
+
+.main-gaming-card ul {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid var(--nebety);
+    padding: calc(var(--padding-primary)/2) 0;
+    line-height: 1.7rem;
+    
+}
+.main-gaming-card h4 {
+    font-size: 1rem;
+}
+.main-gaming-card img {
+    border-radius:calc(var(--border-raduis)/5);
+}
+.main-button-new {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(127, 126, 126, 0.505);
+    padding: calc(var(--padding-primary) / 4.5);
+    border-radius: var(--border-raduis);
+}
+.main-button-new a {
+    color: var(--light-pinky);
+
+}
