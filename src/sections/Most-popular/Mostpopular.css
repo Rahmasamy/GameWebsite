@@ -1,8 +1,12 @@
 .section-wrapper {
-    background-color: #a9a9a952;
+    /* background-color: #a9a9a952; */
     border-radius: var(--border-raduis);
-    padding: calc(var(--padding-primary)/3);
+    /* padding: calc(var(--padding-primary)/2) 30px; */
     margin-top:calc(var(--padding-primary)/4);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 
 .card-wrapper {
@@ -16,11 +20,20 @@
 @media (max-width:330px) {
     .card-wrapper {
         height: 330px;
+        width: 180px;
     }
 }
-.most-popular-items {
+.flex {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
 
+}
+@media (max-width:760px) {
+    .most-popular-items { 
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    }
 }

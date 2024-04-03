@@ -27,3 +27,35 @@
     font-style: normal;
     color:#E95793;
 }
+.hero-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width:550px) {
+    .hero-main {
+        width: 250px;
+    }
+    .hero-text {
+        width: 180px;
+        max-width: 180px;
+    }
+    .hero-title {
+        font-size: 30px;
+    }
+    
+}
+@media screen and (max-width:350px) {
+    .hero-main {
+        width: 180px;
+    }
+    .hero-text {
+        width: 110px;
+        max-width: 110px;
+    }
+    .hero-title {
+        font-size: 23px;
+    }
+    
+}

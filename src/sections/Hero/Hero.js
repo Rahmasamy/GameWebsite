@@ -2,7 +2,7 @@ import React from 'react';
 import './Hero.css';
 const Hero = () => {
     return (
-    
+    < div className='hero-container'>
         <div className='hero-main'>
             <div className='hero-text'>
                 <h6>Welcome To Cyborg</h6>
@@ -15,7 +15,7 @@ const Hero = () => {
             </div>
             
         </div>
-  
+    </div>
     );
 }
 

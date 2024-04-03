@@ -1,9 +1,11 @@
 .fort-two {
-    padding: var(--padding-primary);
+    /* padding: var(--padding-primary); */
+    /* width: 175px; */
 }
 
 .header-details {
    display: flex;
-   gap: 15px;
+   gap: 30px;
+   margin-top: 20px;
 }
 

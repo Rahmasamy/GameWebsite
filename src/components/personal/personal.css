@@ -26,3 +26,35 @@
         display: none;
     }
  }
+@media (max-width:990px){
+    .personInfoParent {
+        grid-template-columns: repeat(auto-fill, minmax(200px,1fr));
+    }
+    .Infoimg-div img {
+        width: 80%;
+    }
+    .About .button-container{
+        width: 270px;
+    }
+}
+@media (max-width:410px) {
+    .About .button-container{
+        width: 145px;
+    }
+}
+@media (max-width:311px) {
+    .Infoimg-div img {
+        width: 80%;
+        border-radius: 50%;
+        margin-right: 30px;
+    }
+    .MostPopular {
+     width: 180px;
+    }
+    .img-icon-info img {
+        border-radius: 50%;
+    }
+    .Clips-container {
+        width: 150px;
+    }
+}

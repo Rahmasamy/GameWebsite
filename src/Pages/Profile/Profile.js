@@ -1,8 +1,9 @@
 import React from 'react';
 import { PersonalInfo,GamingLibrary } from '../../sections';
+import './Profile.css';
 const Profile = () => {
     return (
-        <div>
+        <div className='stream'>
             <PersonalInfo/>
             <GamingLibrary/> 
         </div>

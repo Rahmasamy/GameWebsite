@@ -15,9 +15,9 @@ const FortDetailsPartThree = () => {
           <div className="left-others">
             {imgs.map((img) => {
               return (
-                <div className="container-imgs-fortnitedet" key={img.imge}>
-                  <Imge Img={img} />
-                  <FortniteDet />
+                <div className="container-imgs-fortnitedet" key={img.id}>
+                  <Imge Img={img.imge} />
+                  <FortniteDet  key={img.id}/>
                 </div>
               );
             })}
@@ -26,7 +26,7 @@ const FortDetailsPartThree = () => {
             {imgs.map((img) => {
               return (
                 <div className="container-imgs-fortnitedet">
-                  <Imge Img={img} />
+                  <Imge Img={img.imge} />
                   <FortniteDet />
                 </div>
               );

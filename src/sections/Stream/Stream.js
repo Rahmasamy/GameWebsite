@@ -30,7 +30,10 @@ const Stream = () => {
         </SectionHeader>  
             
         <div className='most-popular-items'> 
-                {Cards}     
+        <div className='flex'>
+        {Cards}  
+        </div>
+                 
         </div>
         <ButtonContainer>
                       <ButtonBrowse text="Load More Streams"/>

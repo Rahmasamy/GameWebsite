@@ -14,7 +14,10 @@ const Mostpopular = () => {
             </SectionHeader>  
             
             <div className='most-popular-items'> 
-                {Cards}     
+              <div className='flex'>
+              {Cards}  
+              </div>
+                  
             </div>
         </SectionWrapper>
     );

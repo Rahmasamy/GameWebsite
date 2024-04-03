@@ -4,4 +4,5 @@
     color: var(--light-pinky);
     padding: calc(var(--padding-primary)/2);
     text-shadow: 3px 2px solid var(--dark);
+    text-align: center;
 }

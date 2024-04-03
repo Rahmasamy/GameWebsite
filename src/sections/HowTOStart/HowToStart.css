@@ -1,7 +1,19 @@
 .How-to h2 {
     text-align: center;
-    padding: calc(var(--padding-primary)/1);
+    padding: 43px 0;
+
 }
 .Main-Container-Testmonial {
     display: flex;
+}
+.img-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+@media screen and (max-width:802px){
+    .Main-Container-Testmonial {
+        flex-direction: column;
+    }
 }

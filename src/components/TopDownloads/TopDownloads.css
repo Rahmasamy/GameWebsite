@@ -12,3 +12,20 @@
 .most-popular-item-content {
     margin-left: calc(var(--padding-primary)/3);
 }
+@media screen and (max-width:470px){
+    .most-popular-item-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .most-popular-item-title {
+        text-align: center;
+    }
+    .main-button-new a {
+        padding: 11px;
+        font-size: 10px;
+        background-color: rgba(127, 126, 126, 0.505);
+        border-radius: 7px;
+    }
+}

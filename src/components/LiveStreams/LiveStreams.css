@@ -21,6 +21,18 @@
     
     }
 }
+@media screen and (max-width:412px){
+    .avatar-top-player {
+        flex-direction: column;
+
+    }
+    .text-icon p {
+        font-size: 14px;
+    }
+    .section-header h4 {
+        font-size: 25px;
+    }
+}
 .text-icon {
     padding: 0 10px;
     display: flex;

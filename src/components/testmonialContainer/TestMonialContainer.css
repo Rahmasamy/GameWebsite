@@ -1,8 +1,4 @@
-.testmonial-container {
-    width: calc(100% / 3);
-    
- 
-}
+
 .testmonial-container .img-content {
     border-radius: var(--border-raduis);
     border:1px solid var(--nebety);
@@ -13,8 +9,31 @@
 }
 @media (max-width:330px){
     .testmonial-container .img-content {
-       height: 97%;
+       height: 95%;
        margin: 20px;
+    }
+    .Main-Container-Testmonial {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .testmonial-container {
+        width: 180px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .stream-container {
+        width: 156px;
+    }
+    .How-to h2 {
+        font-size: 20px;
+    }
+    .most-popular-item {
+        height: 356px;
     }
 }
 .img-content {

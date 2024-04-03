@@ -83,3 +83,78 @@
         
     }
 }
+@media screen and (max-width:450px) {
+    .DetailsImg {
+        display: none;
+    }
+    .header-details {
+        display: none;
+    }
+    .fornite-container {
+        width: 180px;
+    }
+    .others {
+        flex-direction: column;
+        gap: 13px;
+    }
+    .icons {
+        margin-left: 10px;
+        margin-top: 6px;
+    }
+    .title p {
+        font-size: 18px;
+    }
+    .img-paragraoh-button {
+        display: flex;
+        flex-direction: column;
+        width: 255px;
+    }
+    .paragraphClass {
+        text-align: center;
+        display: contents;
+    }
+    .paragraphClass p {
+        font-size: 11px;
+        padding-right: 40px;
+        padding-top: 10px;
+    }
+    .title-icon {
+        display: none;
+    }
+    .Button-Browse {
+        width:111px;
+    }
+    .button-container {
+        width: 150px;
+    }
+    .header-details .fortnite-det {
+        margin: 10px 0;
+        width: 100%;
+        height: 75px;
+    }
+    .fortnite-title h3 {
+        font-size: 23px;
+    }
+    .fortnite-title { 
+        background-color: transparent;
+    }
+    .Button-Browse a {
+        font-size: 12px;
+    }
+    .most-popular-item-content ul {
+       margin-right: 20px;
+    }
+    .img-container-fort {
+        width: 100%;
+    }
+    .vedio-container-fort {
+        width: 100%;
+    }
+}
+@media screen and (max-width:350px) {
+    .img-paragraoh-button {
+        display: flex;
+        flex-direction: column;
+        width: 180px;
+    }
+}
